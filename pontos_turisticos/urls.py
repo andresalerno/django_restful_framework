@@ -19,13 +19,17 @@ from django.conf.urls import include
 from django.urls import path
 from rest_framework import routers
 from core.api.viewsets import PontoTuristicoViewSet
-from atracoes.api.viewsets import AtracoesViewSet
-from enderecos.api.viewsets import EnderecosViewSet
+from atracoes.api.viewsets import AtracaoViewSet
+from enderecos.api.viewsets import EnderecoViewSet
+from comentarios.api.viewsets import ComentarioViewSet
+from avaliacoes.api.viewsets import AvaliacaoViewSet
 
 router = routers.DefaultRouter()
 router.register(r'pontoturistico', PontoTuristicoViewSet)
-router.register(r'atracoes', AtracoesViewSet)
-router.register(r'enderecos', EnderecosViewSet)
+router.register(r'atracoes', AtracaoViewSet)
+router.register(r'enderecos', EnderecoViewSet) # adicionado a rota de endereços que vai dar o nosso endpoint
+router.register(r'comentarios', ComentarioViewSet)
+router.register(r'avaliacoes', AvaliacaoViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
