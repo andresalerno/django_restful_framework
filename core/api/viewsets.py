@@ -10,6 +10,7 @@ class PontoTuristicoViewSet(ModelViewSet):
     serializer_class = PontoTuristicoSerializer
     filter_backends = (SearchFilter,)
     search_fields = ('nome', 'descricao', '^endereco__linha1') # eu posso buscar um dado especifico de uma outra classe, no caso endereco, no campo linha 1
+    lookup_field = 'nome' # eu posso fazer a busca pelo nome. Só funciona para registros únicos
     
     # http_method_names = ['DELETE',] # para que a function destroy funcione de fato
     
