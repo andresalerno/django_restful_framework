@@ -1,7 +1,7 @@
 [![Made with Python](https://img.shields.io/badge/Python->=3.11-blue?logo=python&logoColor=white)](https://python.org "Go to Python homepage")
 [![dependency - django==4.2.5](https://img.shields.io/badge/dependency-django==4.2.5-blue)](https://www.djangoproject.com/ "Go to Django homepage")
 [![dependency - djangorestframework==3.14.0](https://img.shields.io/badge/dependency-djangorestframework==3.14.0-blue)](https://www.django-rest-framework.org/ "Go to Django REST framework homepage")
-[![dependency - django-filter==23.3.0](https://img.shields.io/badge/dependency-django-filter==23.3.0-blue)](https://django-filter.readthedocs.io/en/stable/index.html/](https://django-filter.readthedocs.io/en/stable/index.html# "Go to Django Filter homepage")
+[![dependency - django-filter==23.3.0](https://img.shields.io/badge/dependency-django-filter==23.3.0-blue)](https://pypi.org/project/django-filter/ "Go to Django Filter homepage")
 
 ### Hello Pythonistas! 👋
 
